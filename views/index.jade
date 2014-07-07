@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+    script(type="text/javascript", src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js")
+    script(type="text/javascript", src="translate.js")
+
+    body
+      div.loading-spinner
+
+      div 
+        textarea(placeholder="Yoda Translator")#text
+      div
+        button#transform transform
+      div
+        p#newText
+
+
+
