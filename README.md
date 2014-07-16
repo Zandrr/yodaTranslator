@@ -1,1 +1,1 @@
-yoda translator app!
+yoda translator app.
